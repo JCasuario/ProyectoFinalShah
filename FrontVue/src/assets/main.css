@@ -1,0 +1,47 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pirata {
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #31333F;
+  transition: 0.4s;
+  padding: 3px;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+} 
